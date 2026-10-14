@@ -6,8 +6,8 @@ Este repositorio contiene el diseño de la arquitectura empresarial y de softwar
 
 | Integrante | Rol / Aportes Principales | Vistas Desarrolladas |
 | :--- | :--- | :--- |
-| **Salomé FOnseca.** | Entendimiento del negocio, Estrategia y Dominios | V1, V2, V3, V4, V5 |
-| **Pilar Mantilla** | Entendimiento del negocio, Estrategia y Dominios | V1, V2, V3, V4, V5 |
+| **Salomé FOnseca.** | Entendimiento del negocio, Estrategia y Dominios | V2, V3 |
+| **Pilar Mantilla** | Entendimiento del negocio, Estrategia y Dominios | V1, V4, V5 |
 | **María Fernanda Muñoz** | Diseño Táctico (DDD), Agregados y Mapa de Contextos | V6, V7, V8 |
 | **Diego Villegas** | Interoperabilidad, Trazabilidad y Canvas | V9, V10, V11 |
 
