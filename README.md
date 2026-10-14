@@ -6,7 +6,7 @@ Este repositorio contiene el diseño de la arquitectura empresarial y de softwar
 
 | Integrante | Rol / Aportes Principales | Vistas Desarrolladas |
 | :--- | :--- | :--- |
-| **Salomé FOnseca.** | Entendimiento del negocio, Estrategia y Dominios | V2, V3 |
+| **Salomé Fonseca.** | Entendimiento del negocio, Estrategia y Dominios | V2, V3 |
 | **Pilar Mantilla** | Entendimiento del negocio, Estrategia y Dominios | V1, V4, V5 |
 | **María Fernanda Muñoz** | Diseño Táctico (DDD), Agregados y Mapa de Contextos | V6, V7, V8 |
 | **Diego Villegas** | Interoperabilidad, Trazabilidad y Canvas | V9, V10, V11 |
@@ -82,7 +82,7 @@ Extracción de clústeres del sistema y su clasificación estratégica (Core y S
 Glosario estricto de términos compartidos entre los expertos del dominio y el equipo de desarrollo (ej. FEFO, Cuarentena, Dosis Unitaria).
 
 ![Vista 7 - Lenguaje Ubicuo](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.png)
-* 📖 **Análisis y Definiciones:** [Leer justificación de V7](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.md)
+* **Análisis y Definiciones:** [Leer justificación de V7](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.md)
 
 ---
 
@@ -102,7 +102,7 @@ Diseño interno de cada dominio detallando la Raíz de Agregación, sus comandos
 Relaciones y patrones de integración (Customer/Supplier, Conformist, ACL) entre los dominios internos de Farmacia y los sistemas externos del hospital.
 
 ![Vista 8 - Mapa de Contextos](Vistas/V8/V8%20-%20Mapa%20de%20Contextos.png)
-* 📖 **Análisis de Interoperabilidad:** [Leer justificación de V8](Vistas/V8/V8%20-%20Mapa%20de%20Contextos.md)
+* **Análisis de Interoperabilidad:** [Leer justificación de V8](Vistas/V8/V8%20-%20Mapa%20de%20Contextos.md)
 
 ### V9 - Interoperabilidad y Capa Anticorrupción
 *(Espacio reservado para la Vista 9, a cargo de Diego)*
