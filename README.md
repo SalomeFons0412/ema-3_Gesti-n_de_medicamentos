@@ -2,7 +2,7 @@
 
 Este repositorio contiene el diseño de la arquitectura empresarial y de software para el proceso de gestión de medicamentos en la farmacia de un hospital, desarrollado con ArchiMate y siguiendo los principios de Domain-Driven Design (DDD).
 
-## 👥 Tabla de Aportes del Equipo
+## Tabla de Aportes del Equipo
 
 | Integrante | Rol / Aportes Principales | Vistas Desarrolladas |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ Este repositorio contiene el diseño de la arquitectura empresarial y de softwar
 
 ---
 
-## 📑 Índice Navegable
+## Índice Navegable
 
 1. [Contexto y Entrevista al Experto](#1-contexto-y-entrevista)
 2. [Motivación](#2-motivación)
@@ -30,7 +30,7 @@ Este repositorio contiene el diseño de la arquitectura empresarial y de softwar
 ## 1. Contexto y Entrevista
 El levantamiento de los requerimientos y la comprensión del negocio se realizó simulando una entrevista con un experto en operaciones de farmacia hospitalaria. 
 
-* 📄 **Documento completo de la entrevista:** [Ver Evidencia de Entrevista](Entrevistas/Evidencia_Entrevista_Farmacia_Hospitalaria_Parcial3.docx)
+* **Documento completo de la entrevista:** [Ver Evidencia de Entrevista](Entrevistas/Evidencia_Entrevista_Farmacia_Hospitalaria_Parcial3.docx)
 
 ---
 
@@ -40,7 +40,7 @@ El levantamiento de los requerimientos y la comprensión del negocio se realizó
 Esta vista explica por qué existe la aplicación y cómo se alinea con los elementos estratégicos del hospital (metas, impulsores, restricciones).
 
 ![Vista 1 - Motivación](Vistas/V1/V1_Motivación.png)
-* 📖 **Análisis y Justificación:** [Leer justificación completa de V1](Vistas/V1/V1_Motivación.md)
+* **Análisis y Justificación:** [Leer justificación completa de V1](<Vistas/V1/V1 — Motivación.md>)
 
 ---
 
@@ -49,14 +49,14 @@ Esta vista explica por qué existe la aplicación y cómo se alinea con los elem
 ### V2 - Mapa de Capacidades Empresariales
 Identifica las capacidades actuales del negocio y resalta aquellas que son impactadas directamente por la solución propuesta.
 
-![Vista 2 - Mapa de Capacidades](Vistas/V2/V2_Mapa%20de%20capacidades.png)
-* 📖 **Análisis y Justificación:** [Leer justificación completa de V2](Vistas/V2/V2_Justificacion.md)
+![Vista 2 - Mapa de Capacidades](Vistas/V2/V2_Capacidades.png)
+* **Análisis y Justificación:** [Leer justificación completa de V2](Vistas/V2/V2_Justificacion.md)
 
 ### V3 - Cadena de Valor y Proceso E2E
 Muestra el flujo de valor y el proceso operativo de extremo a extremo, ubicando la aplicación en el ecosistema real de la farmacia.
 
 ![Vista 3 - Cadena de Valor](Vistas/V3/V3_Cadena%20de%20valor%20y%20proceso%20E2E.png)
-* 📖 **Análisis y Justificación:** [Leer justificación completa de V3](Vistas/V3/V3_Justificacion.md)
+* **Análisis y Justificación:** [Leer justificación completa de V3](Vistas/V3/V3_Justificacion.md)
 
 ---
 
@@ -66,7 +66,7 @@ Muestra el flujo de valor y el proceso operativo de extremo a extremo, ubicando 
 Descomposición funcional en capas de servicios. Define el alcance delimitando qué servicios serán automatizados/implementados y cuáles quedan por fuera.
 
 ![Vista 4 - Servicios](Vistas/V4/V4_Servicios.png)
-* 📖 **Análisis y Justificación (Inclusión/Exclusión):** [Leer justificación de V4](Vistas/V4/V4%20-%20Descomposición%20de%20servicios.md)
+* **Análisis y Justificación (Inclusión/Exclusión):** [Leer justificación de V4](<Vistas/V4/V4 — Descomposición de servicios.md>)
 
 ---
 
@@ -76,7 +76,7 @@ Descomposición funcional en capas de servicios. Define el alcance delimitando q
 Extracción de clústeres del sistema y su clasificación estratégica (Core y Supporting domains).
 
 ![Vista 5 - Dominios](Vistas/V5/V5_Dominios.png)
-* 📖 **Análisis y Justificación:** [Leer justificación de V5](Vistas/V5/V5%20-%20Dominios%20(DDD%20estratégico).md)
+* **Análisis y Justificación:** [Leer justificación de V5](<Vistas/V5/V5 — Dominios (DDD estratégico).md>)
 
 ### V7 - Lenguaje Ubicuo
 Glosario estricto de términos compartidos entre los expertos del dominio y el equipo de desarrollo (ej. FEFO, Cuarentena, Dosis Unitaria).
@@ -92,7 +92,7 @@ Glosario estricto de términos compartidos entre los expertos del dominio y el e
 Diseño interno de cada dominio detallando la Raíz de Agregación, sus comandos (acciones mutadoras) y sus eventos de dominio.
 
 ![Vista 6 - Agregados](Vistas/V6/V6%20-%20Agregados,%20Comandos%20y%20Eventos.png)
-* 📖 **Análisis y Límites/Invariantes:** [Leer justificación de V6](Vistas/V6/V6%20-%20Agregados,%20Comandos%20y%20Eventos).md)
+* **Análisis y Límites/Invariantes:** [Leer justificación de V6](<Vistas/V6/V6 - Agregados, Comandos y Eventos).md>)
 
 ---
 
