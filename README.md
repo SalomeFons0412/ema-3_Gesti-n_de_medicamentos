@@ -123,8 +123,8 @@ Hilo de trazabilidad que conecta una meta estratégica del negocio con el compon
 ### V11 - Canvas del Contexto Principal
 Bounded Context Canvas (plantilla ddd-crew) del dominio Core "Gestión de Vencimientos y Priorización", documentando en una sola página su clasificación estratégica, lenguaje ubicuo, decisiones de negocio, dependencias de entrada/salida y supuestos.
 
-![Vista 11 - Bounded Context Canvas](Vistas/V11/V11_Bounded_Context_Canvas.png)
-* **Análisis del Canvas:** [Leer justificación de V11](Vistas/V11/V11_Bounded_Context_Canvas.md)
+![Vista 11 - Bounded Context Canvas](Vistas/V11/V11_Bounded_context_canvas.png)
+* **Análisis del Canvas:** [Leer justificación de V11](Vistas/V11/v11_Bouded_context_canvas.md)
 
 ---
 
