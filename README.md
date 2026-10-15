@@ -78,12 +78,6 @@ Extracción de clústeres del sistema y su clasificación estratégica (Core y S
 ![Vista 5 - Dominios](Vistas/V5/V5_Dominios.png)
 * **Análisis y Justificación:** [Leer justificación de V5](<Vistas/V5/V5 — Dominios (DDD estratégico).md>)
 
-### V7 - Lenguaje Ubicuo
-Glosario estricto de términos compartidos entre los expertos del dominio y el equipo de desarrollo (ej. FEFO, Cuarentena, Dosis Unitaria).
-
-![Vista 7 - Lenguaje Ubicuo](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.png)
-* **Análisis y Definiciones:** [Leer justificación de V7](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.md)
-
 ---
 
 ## 6. Agregados, Comandos y Eventos
@@ -93,6 +87,12 @@ Diseño interno de cada dominio detallando la Raíz de Agregación, sus comandos
 
 ![Vista 6 - Agregados](Vistas/V6/V6%20-%20Agregados,%20Comandos%20y%20Eventos.png)
 * **Análisis y Límites/Invariantes:** [Leer justificación de V6](<Vistas/V6/V6 - Agregados, Comandos y Eventos).md>)
+
+### V7 - Lenguaje Ubicuo
+Glosario estricto de términos compartidos entre los expertos del dominio y el equipo de desarrollo (ej. FEFO, Cuarentena, Dosis Unitaria).
+
+![Vista 7 - Lenguaje Ubicuo](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.png)
+* **Análisis y Definiciones:** [Leer justificación de V7](Vistas/V7/V7%20-%20Lenguaje%20Ubicuo.md)
 
 ---
 
@@ -105,17 +105,26 @@ Relaciones y patrones de integración (Customer/Supplier, Conformist, ACL) entre
 * **Análisis de Interoperabilidad:** [Leer justificación de V8](Vistas/V8/V8%20-%20Mapa%20de%20Contextos.md)
 
 ### V9 - Interoperabilidad y Capa Anticorrupción
-*(Espacio reservado para la Vista 9, a cargo de Diego)*
+Mecanismo de interoperabilidad entre Farmacia y los sistemas externos del hospital, centralizado en un único componente de Capa Anticorrupción (ACL) que traduce y protege al dominio interno de los formatos de cada sistema externo.
+
+![Vista 9 - Interoperabilidad y Anticorrupción](Vistas/V9/V9_Interoperabilidad_anticorrupcion.png)
+* **Análisis de Interoperabilidad y Anticorrupción:** [Leer justificación de V9](Vistas/V9/V9_Interoperabilidad_anticorrupcion.md)
 
 ### V10 - Trazabilidad Vertical
-*(Espacio reservado para la Vista 10, a cargo de Diego)*
+Hilo de trazabilidad que conecta una meta estratégica del negocio con el componente de aplicación concreto que contribuye a cumplirla, atravesando las capas de Motivación, Negocio y Aplicación mediante relaciones de Realization, Serving y Assignment.
+
+![Vista 10 - Trazabilidad Vertical](Vistas/V10/V10_Trazabilidad_vertical.png)
+* **Análisis de Trazabilidad:** [Leer justificación de V10](Vistas/V10/V10_Trazabilidad_vertical.md)
 
 ---
 
 ## 8. Bounded Context Canvas
 
 ### V11 - Canvas del Contexto Principal
-*(Espacio reservado para la Vista 11, a cargo de Diego)*
+Bounded Context Canvas (plantilla ddd-crew) del dominio Core "Gestión de Vencimientos y Priorización", documentando en una sola página su clasificación estratégica, lenguaje ubicuo, decisiones de negocio, dependencias de entrada/salida y supuestos.
+
+![Vista 11 - Bounded Context Canvas](Vistas/V11/V11_Bounded_Context_Canvas.png)
+* **Análisis del Canvas:** [Leer justificación de V11](Vistas/V11/V11_Bounded_Context_Canvas.md)
 
 ---
 
